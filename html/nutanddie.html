@@ -1,0 +1,365 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png" />
+    <title>College Of Education</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../js/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../css/style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="../js/jquery.stellar.js"></script>
+    <script src="../js/scrip.js"></script>
+
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+		
+    }
+    
+    .navbar {
+        border: none;
+        background-color: #f1f1f1;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .nav li a {
+        font-family: Helvetica;
+        font-size: 11px;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+    
+    .nav li a:hover {
+        background-color: #ffc04d;
+    }
+    
+    .navbar-toggle {
+        border-color: #000000;
+    }
+    
+    .navbar-toggle ul {
+        border-color: #a1a1a1;
+    }
+    
+    .navbar-toggle .icon-bar {
+        background-color: #000000;
+    }
+    
+    .dropdown-menu {
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+    
+    .dropdown-menu li a:hover {
+        background-color: #add8e6;
+    }
+    
+    .container .banner {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .banner img {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    
+    .panel-heading-active {
+        transition: all .5s;
+        background-color: #ffc04d !important;
+    }
+    
+    .product .img-responsive{
+        margin: 0 auto;
+    }
+
+</style>
+
+<body>
+    <!-- NAVBAR ================================================== -->
+    <div class="banner">
+        <img class="img-responsive" src="../img/banner1.png">
+    </div>
+    <nav class="navbar" data-spy="affix" data-offset-top="130" style="z-index:999;">
+        <div class="cont container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="../index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#">TEACHER EDUCATION</a>
+                        <ul class="drop dropdown-menu">
+                            <li><a href="secondaryed.html">Secondary Education</a></li>
+                            <li><a href="elemed.html">Elementary Education</a></li>
+                            <li><a href="certpro.html">Certificate Program</a></li>
+                            <li><a href="labschool.html">Laboratory School</a></li>
+                            <li><a href="teacheremp.html">Teacher Empowerment Program</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="foodtech.html">FOOD TECHNOLOGY</a></li>
+                    <li><a href="nutanddie.html">NUTRITION AND DIETETICS</a></li>
+                    <li><a href="libsci.html">LIBRARY AND INFORMATION SCIENCE</a></li>
+                    <li><a href="fildept.html">FILIPINO DEPARTMENT</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#">OUR PARTNERS</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Alumni</a></li>
+                            <li><a href="#">Employers</a></li>
+                            <li><a href="#">Parents</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#">SUPPORT SERVICES</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="comdev.html">Community Development</a></li>
+                            <li><a href="counselingandcareer.html">Counseling and Career</a></li>
+                            <li><a href="crisis.html">Crisis Management</a></li>
+                            <li><a href="internationalization.html">Internationalization</a></li>
+                            <li><a href="laboratories.html">Laboratories</a></li>
+                            <li><a href="library.html">Library</a></li>
+                            <li><a href="nutritionclinic.html">Nutrition Clinic</a></li>
+                            <li><a href="scholarship.html">Scholarship</a></li>
+                            <li><a href="sdwb.html">Student Welfare and <br>Development</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="product">
+            <div class="col-md-13">
+                <img class="img-responsive" src="../img/ND.png" style="width:100%; height:418px; float:middle;">
+            </div>
+    </div>
+    <div class="container">
+        <h2>NUTRITION AND DIETETICS</h2>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">INTRODUCTION</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">                    
+                        <div class="row">
+                            <div class="col-md-10">
+                                <p>
+                                    This four-year program develops students to be globally competitive professionals with relevant competencies in three areas of nutrition: hospital, community, and food service, integrating academic and clinical knowledge and skills thru excellence in teaching and the development of proper values and attitudes in the exercise of the profession to answer the changing needs of the society. <br><br>While relishing the Level IV accreditation of PACUCOA, the department upholds its status by continuously involving faculty and students in both academic and community service activities through the project initiatives of the college. <br><br>Nutrition and Dietetics Department has consistently placed in the Top Performing Schools with fifty or more board takers in the Nutrition and Dietetics Licensure Examination. In the March 2017 examination, four thomasian examinees landed in the top ten: 1st, 2nd, 8th, and 10th place, with 100% passing rate, making it Number One in the Top Performing Schools.
+                                </p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="img-responsive" src="../img/sagumchair.png" style="width:180px; height:180px; float:center;">
+                                <p style="text-align:center;"><b>Asst. Prof. Cristina C. Sagum</b>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">PROGRAM GOALS</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        1. Provide relevant theoretical practical knowledge of food and nutrition necessary for planning, organizing, implementing and evaluating programs for various fields of nutrition and dietetics;<br><br>
+                        2. Ensure adequate and responsive immersion of students to different nutrition practicum sites;<br> <br>
+                        3. Deepen students’ understanding of the discipline through constant exposure to recent trends and developments in the field;<br> <br>
+                        4. Develop sound human and Christian values and attitudes necessary in addressing the health and nutrition needs of various sectors of the society; and <br><br>
+                        5. Coordinate and establish linkages with local and international groups and communities for exchange of expertise and resources, research outputs and best practices geared toward the upliftment of the nutritional status of the Filipino people.</div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">PROGRAM INTENDED LEARNING OUTCOMES</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        1. Trace the development of nutrition as a science.<br>
+			2. Use basic nutrition terminologies appropriately.<br>
+			3. Utilize the basic tools in nutrition.<br>
+			4. Describe the nature, functions and interrelationships of macro and micro nutrients.<br>
+			5. Discuss how macro and micro nutrients are utilized by the body.<br>
+			6. Determine the energy and nutrient requirements of an individual.<br>
+			7. Discuss the importance of water and electrolytes in homeostasis.<br>
+			8. Differentiate the perishable and non-perishable food items.<br>
+			9. Discuss the fundamental principles in the selection and preparation of perishable and non-perishable food items.<br>
+			10. Utilize the different perishable and non-perishable food items in preparing nutritious meals.<br>
+			11. Undertake sensory evaluation of prepared food products.<br>
+			12. Discuss the nutritional needs of the different age groups.<br>
+			13. Describe human development in the context of nutrition.<br>
+			14. Prepare nutrition care plans for the different age groups.<br>
+			15. Outline the various nutritional assessment initiatives at the national level.<br>
+			16. Discuss the different methods in nutritional assessment.<br>
+			17. Pinpoint the pros and cons of each assessment method.<br>
+			18. Conduct nutritional assessment involving identified individuals, families and communities.<br>
+			19. Describe common terms and concepts in meal management.<br>
+			20. Discuss the principles underlying meal planning, procurement, storage, preparation and service.<br>
+			21. Plan a nutritious menu for a family considering varied occasions in both formal and informal settings.<br>
+			22. Select table appointments appropriate for varied meal services.<br>
+			23. Use various styles of meal service.<br>
+			24. Characterize Philippine and international cuisines.<br>
+			25. Trace the historical background of the industrial and institutional food service.<br>
+			26. Apply the general principles of food selection and preparation in quantity food production.<br>
+			27. Discuss food service as a system.<br>
+			28. Manage food service institution.<br>
+			29. Apply sanitation principles and techniques in food service institution.<br>
+			30. Conduct feasibility study on food service.<br>
+			31. Disseminate feasibility study on food service.<br>
+			32. Organize a catering event for specific occasion.<br>
+			33. Trace the historical background of public health initiatives in the Philippines.<br>
+			34. Discuss the principles of public health nutrition.<br>
+			35. Describe basic management functions.<br>
+			36. Discuss the steps in program planning.<br>
+			37. Propose a nutrition action plan for the identified community.<br>
+			38. Implement the approved nutrition action plan.<br>
+			39. Organize nutrition information dissemination seminars/fora.<br>
+			40. Describe the nexus between nutrition education and human development.<br>
+			41. Apply principles of teaching and learning, strategies and materials preparation in the conduct of nutrition education projects and activities.<br>
+			42. Conduct nutrition counseling to a select group of individuals.<br>
+			43. Describe the qualities of an effective nutrition educator.<br>
+			44. Identify the causes of physical, chemical and biological changes in food.<br>
+			45. Explain the principles and method of food preservation.<br>
+			46. Describe the effects of food preservation methods on food quality and acceptability.<br>
+			47. Apply the principles and methods of food preservation.<br>
+			48. Prepare an innovative food product using any method of food preservation.<br>
+			49. Determine the acceptability of the prepared food product.<br>
+			50. Describe the trends and developments in food technology.<br>
+			51. Discuss the concepts and principles of medical nutrition therapy.<br>
+			52. Explain the role of pathophysiology of a disease on patient’s nutritional status.<br>
+			53. Prepare different therapeutic diets of specific disease conditions considering family traditions and values.<br>
+			54. Conduct a case study describing nutrition care process.<br>
+			55. Write a nutrition research proposal following the standard and rigor of scientific research.<br>
+			56. Disseminate the completed nutrition research via oral and mural forms.<br>
+			57. Apply the learned nutrition theories, principles and concepts in various practicum sites, namely; food service, hospital and community.<br>
+			58. Document various learning experiences in and exposures to various practicum sites.<br>
+			59. Complete the required number of hours allotted for each practicum assignment.<br>
+			60. Participate in various continuing education seminars/lectures/fora organized at international, national, local and institutional levels.<br>
+			61. Organize nutrition-related activities.<br>
+			62. Participate in planning, organizing, implementing and assessing community nutrition programs addressing the nutritional needs, problems and concerns of various sectors of the society.<br>
+                    	63. Participate in various nutrition-related collaborative initiatives and endeavors both local and international levels.<br>
+			</div>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">FREQUENTLY ASKED QUESTIONS</a>
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">EXISTING FORMS AND BROCHURES</a>
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAWGwzeG5vbzZKcFU" target="_blank">Updated Curriculum Checklist - Nutrition and Dietetics</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">POLICIES AND PROCEDURES</a>
+                    </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        
+			<a href="https://drive.google.com/open?id=0B_CPTKzYXssAUURCXzV2RVMxTzg" target="_blank">FO 67 Enrollment Conforme on PPS 1027</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAVDRSTmRiLWhwTVE" target="_blank">Updated ND Practicum Policy Statement and Standards.1.15.17</a>
+		    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">DETAILS OF MEMORANDA, CIRCULARS AND BULLETIN </a>
+                    </h4>
+                </div>
+                <div id="collapse7" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">LINK TO MAIN WEBSITE</a>
+                    </h4>
+                </div>
+                <div id="collapse8" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <a href="http://www.ust.edu.ph/education/" target="_blank">Nutrition and Dietetics</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div>
+        <p>
+            <br><br><br><br>
+        </p>
+    </div>
+
+    <script>
+        $('#accordion .panel').on("click", function() {
+            $(this).siblings().find(".panel-heading").removeClass("panel-heading-active");
+            $(this).find(".panel-heading").toggleClass("panel-heading-active");
+        });
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png" />
+    <title>College Of Education</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../js/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="../css/style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="../js/jquery.stellar.js"></script>
+    <script src="../js/scrip.js"></script>
+
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    .navbar {
+        border: none;
+        background-color: #f1f1f1;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    .nav li a {
+        font-family: Helvetica;
+        font-size: 11px;
+        letter-spacing: 0px;
+        color: #000000;
+    }
+    
+    .nav li a:hover {
+        background-color: #ffc04d;
+    }
+    
+    .navbar-toggle {
+        border-color: #000000;
+    }
+    
+    .navbar-toggle ul {
+        border-color: #a1a1a1;
+    }
+    
+    .navbar-toggle .icon-bar {
+        background-color: #000000;
+    }
+    
+    .dropdown-menu {
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+    
+    .dropdown-menu li a:hover {
+        background-color: #add8e6;
+    }
+    
+    .container .banner {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .banner img {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    
+    .panel-heading-active {
+        transition: all .5s;
+        background-color: #ffc04d !important;
+    }
+    
+    .product .img-responsive{
+        margin: 0 auto;
+    }
+</style>
+
+<body>
+   <!-- NAVBAR ================================================== -->
+    <div class="banner">
+        <img class="img-responsive" src="../img/banner1.png">
+    </div>
+    <nav class="navbar" data-spy="affix" data-offset-top="130" style="z-index:999;">
+        <div class="cont container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="../index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#">TEACHER EDUCATION</a>
+                        <ul class="drop dropdown-menu">
+                            <li><a href="secondaryed.html">Secondary Education</a></li>
+                            <li><a href="elemed.html">Elementary Education</a></li>
+                            <li><a href="certpro.html">Certificate Program</a></li>
+                            <li><a href="labschool.html">Laboratory School</a></li>
+                            <li><a href="teacheremp.html">Teacher Empowerment Program</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="foodtech.html">FOOD TECHNOLOGY</a></li>
+                    <li><a href="nutanddie.html">NUTRITION AND DIETETICS</a></li>
+                    <li><a href="libsci.html">LIBRARY AND INFORMATION SCIENCE</a></li>
+                    <li><a href="fildept.html">FILIPINO DEPARTMENT</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#">OUR PARTNERS</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Alumni</a></li>
+                            <li><a href="#">Employers</a></li>
+                            <li><a href="#">Parents</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="#">SUPPORT SERVICES</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="comdev.html">Community Development</a></li>
+                            <li><a href="counselingandcareer.html">Counseling and Career</a></li>
+                            <li><a href="crisis.html">Crisis Management</a></li>
+                            <li><a href="internationalization.html">Internationalization</a></li>
+                            <li><a href="laboratories.html">Laboratories</a></li>
+                            <li><a href="library.html">Library</a></li>
+                            <li><a href="nutritionclinic.html">Nutrition Clinic</a></li>
+                            <li><a href="scholarship.html">Scholarship</a></li>
+                            <li><a href="sdwb.html">Student Welfare and <br>Development</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="product">
+            <div class="col-md-13">
+                <img class="img-responsive" src="../img/TED.png" style="height:418px; width:100%; float:middle;">
+            </div>
+    </div>
+
+    <div class="container">
+
+        <h2>SECONDARY EDUCATION</h2>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">INTRODUCTION</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">                    
+                        <div class="row">
+                            <div class="col-md-10">
+                                <p>
+                                    This four-year program provides academic and clinical preparation for prospective teachers of secondary education through appropriate courses in general education, professional education, and field study/practice teaching. Students may major in the following: Science, English, Mathematics, Filipino, Religious and Values Education, Social Studies, and Technology and Livelihood Education.
+                                </p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class="img-responsive" src="../img/ringgochair.png" style="width:180px; height:180px; float:center;">
+                                <p style="text-align:center;"><b>Mr. Alvin Ringgo C. Reyes</b>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">PROGRAM GOALS</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+			            1. Provide future basic education teachers with a solid understanding of classical and emerging theories, principles and concepts underlying human growth and development as these apply to teaching learning situation;<br><br>
+                        2. Equip students with sound pedagogical know-how and practice vis-à-vis subject matter content as they plan for instruction through maximum effective use of available technological resources;<br><br>
+                        3. Enable future teachers to understand their unique and ever changing roles in assessment of and for learning;<br><br>
+                        4. Deepen students’ commitment to scholarship of and for teaching, guided by Christian values; and<br><br>
+                        5. Create meaningful and relevant learning opportunities that facilitate students’ ability to see the role of education and its processes in transforming the internal and external environments of the school.
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">PROGRAM INTENDED LEARNING OUTCOMES</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+			1. Discuss the different classical and emerging theories, principles, and concepts underlying human growth and development. <br>
+			2. Apply the different classical and emerging theories, principles, and concepts of human growth and development to teaching-learning situations.<br>
+            3. Explain the different pedagogical theories vis-a-vis subject matter content. <br>
+			4. Apply the different pedagogical theories, principles, and concepts in instructional planning.<br>
+			5. Integrate appropriate technology in planning for instruction. <br>
+			6. Discuss the tools used in assessment of and for learning.<br>
+			7. Differentiate the roles of teachers in assessment of and for learning.<br>
+			8. Explain the dynamics of the school system.<br>
+			9. Apply the knowledge of pedagogical theories and practice through actual classroom teaching under the supervision of a supervising teacher and/or cooperating teacher.<br>
+			10. Appraise the knowledge, skills, and values they have acquired. <br>
+			11. Characterize the teachings of St. Thomas Aquinas as lifelong learners.<br>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">FREQUENTLY ASKED QUESTIONS</a>
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        1. How many units must a student enrol for during the term? Is he allowed to be underload from the number of units prescribed to be taken?
+                        <br><br>
+                        <b>Unless approved by the Dean, a student must maintain at least one-half (1/2) of the regular semestral load (Source: UST Student Handbook PPS No. 1003).</b>
+                        <br><br>
+                        2. Is a student allowed to be overload or to take more units than what is prescribed for the term?
+                        <br><br>
+                        <b>A student is not allowed to overload except in the last two semesters before graduation, or in highly meritorious cases as determined by the Dean (Source: UST Student Handbook PPS No. 1003).</b>
+                        <br><br>
+                        3. Is a student allowed to cross-enroll in another University?
+                        <br><br>
+                        <b>A student is not allowed to cross-enroll in another school, except in meritorious cases as determined by the Dean, such as if the general education is not anymore offered in the university (Source: UST Student Handbook PPS No. 1004).</b>
+                        <br><br>
+                        4. May a student drop a course after he/she has already taken the Preliminary Examinations?
+                        <br><br>
+                        <b>Dropping of course / program may still be done before the preliminary examination. No request for drop of course / program will be entertained after the preliminary examinations (Source: UST Student Handbook PPS No. 1005).</b>
+                        <br><br>
+                        5. May a student take an advance course even if he/she has not passed the prerequisite course yet?
+                        <br><br>
+                        <b>Enrolment in any course without the necessary pre-requisite is not valid and shall not be credited regardless of the grade obtained (Source: UST Student Handbook PPS No. 1003).</b>
+                        <br><br>
+                        6. How is dropping of a course done?
+                        <br><br>
+                        <b>1. Fill up the UST Form 4B.<br>
+                        2. Secure the approval of the Dean.<br>
+                        3. Obtain endorsement from the Registrar’s Office.<br>
+                        4. Proceed to the Accounting Division for adjustment of fees.<br><br>
+                        (Source: UST Student Handbook PPS No. 1006)</b>
+                        <br><br>
+                        7. What are the requirements for shifting to a different program in the University?
+                        <br><br>
+                        <b>The following are the requirements for shifting to a different program in the university:<br><br>
+                            A. Letter of intent addressed to the Dean<br>
+                            B. Copy of transcript of records duly certified by the Office of the Registrar<br>
+                            C. An endorsement letter coming from the Guidance Counselor<br>
+                            D. Passed shifter’s exam<br><br>
+                            However, when shifting to another program with the same academic requirements within the same college / faculty, a student is not required to take the shifter’s qualifying examinations (Source: UST Student Handbook PPS No. 1006).</b>
+                        <br><br>
+                        8. What document approved by the Office of the Secretary General is considered the final requirement before shifting in the same College / Faculty is allowed?
+                        <br><br>
+                        <b>Upon meeting the requirements for shifting within the same Faculty / College / Institute, the applicant should accomplish the admission memo which requires the final approval of the Secretary General (Source: UST Student Handbook PPS No. 1006).</b>
+                        <br><br>
+                        9. How is shifting to a different program done?
+                        <br><br>
+                        <b>The following are the steps in shifting to a different program:<br><br>
+                            1. Submit requirements (letter of intent, TOR, document of clearance from the College and OSA).<br>
+                            2. Secure a Note of Approval from the Office of the Secretary General.<br>
+                            3. Take the Shifter’s Examination from the Office for Admissions (OFAD).<br>
+                            4. Await decision by the Dean and Program Chair on the acceptance of the shifter.<br><br>
+                            (Source: UST Student Handbook PPS No. 1006)</b>
+                        <br><br>
+                        10. Is a student who has already been debarred in a Faculty / College / Institute still shift to a different program in another Faculty / College / Institute?
+                        <br><br>
+                        <b>A student debarred from a faculty / college / institute may be admitted to another program of another faculty / college / institute provided that the cause of debarment is not due to nine (9.0) units of “unremoved failure” in the general courses. Aptly called “academic rechanneling,” this procedure gives “displaced students” a second chance. However, a student can avail of this only once. Academic re-channeling may be allowed in any program where the failed requirements do not apply, as long as the students meet all other requirements prescribed for the second program (Source: UST Student Handbook PPS No. 1007).</b>
+                        <br><br>
+                        11. May a student who has finished Bachelor of Secondary Education or Bachelor of Elementary Education retake the degree, this time with a different area of specialization or major (e. g. a student who has finished BSEd English and intends to take BSEd Math for the second degree or a BEEd major in PSEd graduate who wishes to take SPEd)?
+                        <br><br>
+                        <b>Yes. However, courses covered by credit transfer need not be repeated (e. g. the general education courses finished during the first degree). Should the student wish to repeat them for personal reasons, grades obtained and credits earned do not count for weighted average and academic honors (Source: UST Student Handbook PPS 1008b).</b>
+                        <br><br>
+                        12. A student misses a quiz in his class for participating in a college activity. When he returned to class, he presented an excuse letter signed by the Dean. Will the student’s absence not be deducted from the allowable number of absences?<br><br>
+                        <b>The student will be marked absent but may be given a special quiz. Furthermore, the university requires that every student attends no less than 80% of the class hours/day required for every course to earn the corresponding credits (Source: UST Student Handbook PPS No. 1010).</b>
+                        <br><br>
+                        13. If a student enrolled late, are his absences prior to his enrolment counted?
+                        <br><br>
+                        <b>Yes. Classes missed for reason of late enrolment or illness must be counted among the absences (Source: UST Student Handbook PPS 1010).</b>
+                        <br><br>
+                        14. What grade will a student get if he stops attending the classes before the preliminary examinations without officially dropping?
+                        <br><br>
+                        <b>A WF mark which is equivalent to a failing grade.</b>
+                        <br><br>
+                        15. If a student failed to take the final examinations because he was admitted to the hospital for one week, is he allowed to take special examinations for completion purposes?
+                        <br><br>
+                        <b>For a justifiable cause as determined by the teacher concerned, completion examinations are given. The explanation in writing must be accompanied by supporting papers, which must be submitted to the said teacher within one week after the scheduled examinations. (Source: UST Student Handbook PPS 10175).</b>
+                        <br><br>
+                        16. Is the use of cellphone allowed during examinations, e. g. the use of cellphone as a calculator in computing examinations?
+                        <br><br>
+                        <b>All electronic devices and gadgets (pagers, palm organizers, cellular phones, etc.) are not allowed to be used during examinations. Should a student be carrying one, he/she should surrender it to the proctor, prior to the administration of the examination. Except when allowed by the professor, calculators are likewise prohibited. Violations thereof subject the students to appropriate disciplinary action (Source: UST Student Handbook Guideline PPS No. 1017).</b>
+                        <br><br>
+                        17. If a student failed a 3-unit course during the first term, and two 3-unit course during the second term, with a total of 9 units for the academic year, will he still be allowed to enroll the following academic year?
+                        <br><br>
+                        <b>Old students, except those in the senior year, with failures corresponding to nine (9) or more units are not to be readmitted in the succeeding semesters. The same rule shall apply to students who did not take the regular full load and incurred failures equivalent to one-half of load carried in the preceding semester (Source: UST Student Handbook PPS No. 1018).</b>
+                        <br><br>
+                        18. If a student failed the same (3-unit) course three times, will it be considered a total of 9 units?
+                        <br><br>
+                        <b>In the application of rule #1, all failures incurred by a student during the entire course, which have not been cleared, will be taken into account (Source: UST Student Handbook PPS No. 1018).</b>
+                        <br><br>
+                        19. If a debarred student skipped advising and subject encoding and went to the bank directly to pay his tuition fee, will he be considered officially enrolled?<br><br>
+                        <b>No. To be counted in a course, a student requiring academic advising from the Department Chairperson must first see the said official and have courses encoded into the curriculum he will enrol for the term. In the case of a student who was already debarred, he must first see the Dean for decision, i. e. not to be readmitted or recommended for academic rechanneling.</b>
+                        <br><br>
+                        20. How much refund may a student get for dropping a course?
+                        <br><br>
+                        <b>1. A student who officially drops from a program before the official start of classes shall be charged two thousand pesos (Php 2000) only.<br><br>
+                        2. A student who officially drops a course/program within the 1st two weeks from the official start of classes shall be charged as follows:<br><br>
+                            (a) within 1st week - 10% of the of the total fees for the course/program<br>
+                            (b) within the 2nd week - 20% of the total fees for the course/program<br>
+                            (c) after the 2nd week of classes, concerned students shall be charges in full.<br><br>
+                            (Source: UST Student Handbook PPS No. 1018)</b>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">EXISTING FORMS AND BROCHURES</a>
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAWXN2WEQ3a19hQm8" target="_blank">Updated Curriculum Checklist - Biological Science</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAampzSWxDeGpvNEE" target="_blank">Updated Curriculum Checklist - English</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAMXFwSVBiLWo3QnM" target="_blank">Updated Curriculum Checklist - Filipino</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAU2NkWmxtcXZRNDg" target="_blank">Updated Curriculum Checklist - Mathematics</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAaXl6dmprcF9BaEE" target="_blank">Updated Curriculum Checklist - Religious Education</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAUGF0d2hmWlA1UTQ" target="_blank">Updated Curriculum Checklist - Social Studies</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAMGJONXBOQ29QZGc" target="_blank">Updated Curriculum Checklist - Technology and Livelihood Education</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">POLICIES AND PROCEDURES</a>
+                    </h4>
+                </div>
+                <div id="collapse6" class="panel-collapse collapse">
+                    <div class="panel-body">
+			<a href="https://drive.google.com/open?id=0B_CPTKzYXssAUURCXzV2RVMxTzg" target="_blank">FO 67 Enrollment Conforme on PPS 1027</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAXzNucjZPX284bnc" target="_blank">Practicum Manual Secondary Education</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">DETAILS OF MEMORANDA, CIRCULARS AND BULLETIN </a>
+                    </h4>
+                </div>
+                <div id="collapse7" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssASjBSbzZSX0JmSHM" target="_blank">1 Endorsement of Seminars to TED Faculty Members</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAeU5mSlJpRnNPbU0" target="_blank">2 Endorsement of RCCESI Research Instrument</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAdF9mTV9rMGRnaTQ" target="_blank">3 Supervising Teachers on Application to Graduate Form</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAbl96NUtCZ2FmUWM" target="_blank">4 Conduct of Field Study Observation</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAeWdoR0daa2o5UWc" target="_blank">5 Activating Peer Support endorsement to the Supervising Teachers</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAek8xQmtNZHBWWUE" target="_blank">6 Supervising Teachers on The Thomasian</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssASmhQbVVGYnV6MjQ" target="_blank">7 3rd Year BSE on SHARE Scholarship</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAR3A4VV9zTHdDYTA" target="_blank">9 3rd Year Substitution for their Retreat</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAUEVpR1VzYU1xZE0" target="_blank">10 3rd Year Substitution for the CarSem</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAVTZ4SVdmdEp2NW8" target="_blank">11 Supervising Teachers on 3rd Year Substitution for the CarSem</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAdzAwbHdnd2tSTnM" target="_blank">12 Retreat Guidelines</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAN3VhbTA5VTJGU2s" target="_blank">13 Supervising Teachers on List of Graduating Students</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssARmV4azZuMmwwNlk" target="_blank">14 3rd Year Students on Practicum Uniform</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAMFNMWmVLN1dNUjg" target="_blank">16 4th Year BSE Students Supervising Term 2 Schedule</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssATk1TQjl6QjBrSVE" target="_blank">18 Off-Campus Reminders</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAclpMSTktWVhINGs" target="_blank">19 Supervising Teachers on QS 4 Stars Employability</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAc3N6UVRLWE1ZQ1k" target="_blank">20 iPADS 2017</a><br>
+                        <a href="https://drive.google.com/open?id=0B_CPTKzYXssAd29wLUI1aEdFSFU" target="_blank">21 TOEIC Procedure</a><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">LINK TO MAIN WEBSITE</a>
+                    </h4>
+                </div>
+                <div id="collapse8" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <a href="http://www.ust.edu.ph/education/" target="_blank">Secondary Education</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div>
+        <p>
+            <br><br><br>
+        </p>
+    </div>
+
+
+    <script>
+        $('#accordion .panel').on("click", function() {
+            $(this).siblings().find(".panel-heading").removeClass("panel-heading-active");
+            $(this).find(".panel-heading").toggleClass("panel-heading-active");
+        });
+    </script>
+</body>
+</html>
+                            
+                            
